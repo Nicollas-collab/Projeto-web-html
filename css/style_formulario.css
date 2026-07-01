@@ -1,0 +1,59 @@
+label{
+    display: block;
+    margin: 20px 0px; /* primeiro numero é da vertical e o segundo pe da horizontal */
+}
+
+.input-txt01, .input-txt02{
+    height: 30px; /* altura */
+    border-radius: 5px;
+    padding: 10px; /* mexe de dentro do campo do elemento*/
+    margin: 10px; /* atuar do lado de fora do campo*/
+}
+
+select{
+    height: 60px;
+}
+
+.input-txt01{
+    width: 260px;
+} 
+
+textarea{
+    height: 250px;
+    resize: none; /* quebra o tamanho do campo dos "comentários"*/
+    padding: 10px;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: coral;
+    font-size: 1.6em;
+}
+
+input[type="radio"], input[tpe="checkbox"]{
+    width: 30px;
+    height: 30px;
+}
+
+#div-form{
+    width: 500px;
+    min-height: 600px;
+    margin: 20px auto;
+    background-color: darkorange;
+    padding: 20px;
+    font-size: 1.4em;
+}
+
+#div-btns{
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
